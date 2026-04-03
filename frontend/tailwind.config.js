@@ -1,0 +1,15 @@
+export default {
+  darkMode: 'class',
+  content: ['./index.html', './src/**/*.{js,jsx}'],
+  theme: {
+    extend: {
+      colors: {
+        accent: {
+          500: '#6366f1',
+          600: '#4f46e5'
+        }
+      }
+    }
+  },
+  plugins: []
+};
